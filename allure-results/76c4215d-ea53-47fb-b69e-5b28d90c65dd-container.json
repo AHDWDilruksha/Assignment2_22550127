@@ -1,1 +1,0 @@
-{"uuid":"76c4215d-ea53-47fb-b69e-5b28d90c65dd","name":"AssignmentThreeWithPOM","children":["3c8172df-6e3b-4280-81e8-e1253d523571"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1735289055913,"stop":1735289059758}],"afters":[],"start":1735289055909,"stop":1735289066607}
