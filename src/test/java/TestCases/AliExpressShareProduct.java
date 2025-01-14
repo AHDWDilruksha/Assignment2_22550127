@@ -35,8 +35,8 @@ public class AliExpressShareProduct extends BaseTest {
 
         // Step 1: Search for a product
         homePage.searchFor(productName);
-        setReportName("Share Product Scenario - Test Case 1");
-        startTest("Share Product Scenario - Test Case 1");
+        setReportName("Share Product Scenario - Test Case 2");
+        startTest("Share Product Scenario - Test Case 2");
         test = extent.createTest("Product Search", "System successfully searched for the product and displayed results.");
         String screenshotPath1 = TakeErrorScreenShots.takeScreenshot(driver, "SuccessfulSearchAliExpress");
         test.pass("System successfully searched for the product and displayed results.")

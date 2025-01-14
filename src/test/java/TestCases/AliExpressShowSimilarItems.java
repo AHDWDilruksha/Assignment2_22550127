@@ -35,8 +35,8 @@ public class AliExpressShowSimilarItems extends BaseTest {
 
         // Step 1: Search for a product
         homePage.searchFor(productName);
-        setReportName("Show Similar Items Scenario - Test Case 1");
-        startTest("Show Similar Items Scenario - Test Case 1");
+        setReportName("Show Similar Items Scenario - Test Case 3");
+        startTest("Show Similar Items Scenario - Test Case 3");
         test = extent.createTest("Product Search", "System successfully searched for the product and displayed results.");
         String screenshotPath1 = TakeErrorScreenShots.takeScreenshot(driver, "SuccessfulSearchAliExpress");
         test.pass("System successfully searched for the product and displayed results.")
